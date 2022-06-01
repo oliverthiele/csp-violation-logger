@@ -1,0 +1,47 @@
+{
+	"name": "oliverthiele/csp-violation-logger",
+	"description": "PHP/MySQL based Logger for CSP violations",
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"keywords": [
+		"CSP",
+		"Content Security Policy",
+		"Logger",
+		"report"
+	],
+	"config": {
+		"platform": {
+			"php": "7.4"
+		},
+		"sort-packages": true
+	},
+	"version": "0.1.0",
+	"authors": [
+		{
+			"name": "Oliver Thiele",
+			"email": "mail@oliver-thiele.de",
+			"homepage": "https://www.oliver-thiele.de",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"ext-mysqli": "*",
+		"monolog/monolog": "2.3.*",
+		"twbs/bootstrap": "^5.1",
+		"vlucas/phpdotenv": "^5.4"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-latest"
+	},
+	"autoload": {
+		"psr-4": {
+			"OliverThiele\\CspViolationLogger\\": "Classes/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"OliverThiele\\CspViolationLogger\\Tests\\": "Tests/"
+		}
+	}
+}
