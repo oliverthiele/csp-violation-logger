@@ -34,7 +34,7 @@ try {
         $fileLoggerWarning = new Monolog\Logger('fallback');
         $fileLoggerWarning->pushHandler(
             new Monolog\Handler\StreamHandler(
-                'csp-violations.log',
+                'Private/csp-violations.log',
                 Monolog\Logger::WARNING
             )
         );
@@ -46,7 +46,7 @@ try {
     $fileLogger = new Monolog\Logger('Exception');
     $fileLogger->pushHandler(
         new Monolog\Handler\StreamHandler(
-            'csp-violations.log',
+            'Private/csp-violations.log',
             Monolog\Logger::ERROR
         )
     );
