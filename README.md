@@ -15,7 +15,11 @@ these are processed by the script and stored in a MySQL database.
 
 ### 1. Get the package:
 
-`composer require oliverthiele/csp-violation-logger`
+`git clone git@github.com:oliverthiele/csp-violation-logger.git`
+
+### 2. Composer install:
+
+Run `cd csp-violation-logger; composer install --no-dev`
 
 ### 2. Setup the database:
 
