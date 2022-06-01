@@ -15,7 +15,7 @@ these are processed by the script and stored in a MySQL database.
 
 ### 1. Get the package:
 
-`composer require oliverthiele/csp-violation-logger --no-dev`
+`composer require oliverthiele/csp-violation-logger`
 
 ### 2. Setup the database:
 
